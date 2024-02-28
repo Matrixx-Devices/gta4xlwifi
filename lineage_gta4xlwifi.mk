@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 ## Inherit from gta4xlwifi device
 $(call inherit-product, device/samsung/gta4xlwifi/device.mk)
 
+## Inherit some common Lineage stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
 ## Boot Animation
 TARGET_SCREEN_HEIGHT := 2000
 TARGET_SCREEN_WIDTH := 1200
