@@ -50,5 +50,7 @@ MATRIXX_CHIPSET := EXYNOX_9611
 MATRIXX_BATTERY := 7040 mAh
 MATRIXX_DISPLAY := 2000x1200
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_ENABLE_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true																																																																																																																																																	TARGET_COMPRESSED_SOONG_ZIP := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
